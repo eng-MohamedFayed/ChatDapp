@@ -29,6 +29,7 @@ cd decentralized-chat-dapp
 
 ```bash
 cd frontEnd
+cd chat
 npm install
 ```
 
@@ -37,6 +38,8 @@ npm install
 Make sure you have Ganache running for local development. Then, in the root directory of your project:
 
 ```bash
+cd ../..
+cd truffle compile
 truffle migrate --reset
 ```
 
@@ -44,15 +47,23 @@ This will deploy the smart contract to your local blockchain. Note the contract 
 
 ### 4. Update frontend configuration
 
-In `src/constants/constant.js`, update the contract address:
+In `frontEnd/chat/src/constants/constant.js`, update the contract address:
 
 ```javascript
-export const contractAddress = 'YOUR_CONTRACT_ADDRESS_HERE';
+const contractAddress = 'YOUR_CONTRACT_ADDRESS_HERE';
+// Change this to the contract address appeared in your terminal when you migrated 
+// Deploying 'Chat'
+// ----------------
+// > transaction hash:    0x7d31eabb7958d8e53e2651b4c0e5bee7c5b81290c6a49a571cd3f87f26cde3f2
+// > Blocks: 0            Seconds: 0
+// > contract address:    0x38103f52224bc2696e0817F796376b34Ae4277f5 
 ```
 
 ### 5. Run the frontend application
 
 ```bash
+cd frontEnd
+cd chat
 npm start
 ```
 
