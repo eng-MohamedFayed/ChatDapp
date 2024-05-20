@@ -75,11 +75,11 @@ This will start the React application on `http://localhost:3000`.
 
 ### Registration Page
 
-![Registration Page](screenshots/registration.png)
+![Registration Page](screenshots/registerPage.png)
 
 ### Chat Interface
 
-![Chat Interface](screenshots/chat-interface.png)
+![Chat Interface](screenshots/chatInterface.png)
 
 ## Smart Contract
 
