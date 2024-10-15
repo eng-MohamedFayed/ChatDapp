@@ -419,10 +419,9 @@ button:hover {
   color: red;
 }
 ```
-```
 
+---
 ## License
 
 This project is licensed under the MIT License.
-
-```
+---
