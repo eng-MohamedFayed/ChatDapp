@@ -425,5 +425,3 @@ button:hover {
 This project is licensed under the MIT License.
 
 ---
-
-With this `README.md`, anyone should be able to understand the purpose of your project, how to set it up, and how to use it. Make sure to replace `YOUR_CONTRACT_ADDRESS_HERE` with the actual deployed contract address and update the screenshots paths if needed. After that, you can push your project to GitHub.
